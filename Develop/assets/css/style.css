@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 2px;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
 
 .header {
     padding: 20px;
+    width: 80%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -52,7 +53,7 @@ p {
 
 .hero {
     height: 800px;
-    width: 100%;
+    width: 80%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -70,18 +71,19 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 50%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
-    margin-right: 20px;
+    margin-right: 280px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -112,7 +114,8 @@ p {
 .online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
+    width: 860px;
     height: 280px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
